@@ -1,0 +1,30 @@
+// Write a simple program to find the area of a circle.
+
+// Take pi to be 3.1428
+
+// solution 
+
+// Area of a circle is given by PI * r^2
+package com.circleArea;
+
+import java.awt.geom.Area;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+	// write your code here
+      
+        Double radius, Area;
+      
+        Scanner input = new Scanner(System.in);
+        System.out.println("inter the radius of the circle");
+        radius = input.nextDouble();
+        input.close();
+        Area = 3.1428 * radius * radius;
+      
+        System.out.println( " Area of the circle " + Area );
+
+
+    }
+}
